@@ -1,0 +1,144 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #263238
+        }
+        
+        header {
+            background-color: #546e7a;
+            height: 5vh;
+            font-size: 1.2rem;
+            justify-content: center;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        
+        header ul li {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 51px;
+            list-style: none;
+            padding: 4px;
+            color: #e5bf87;
+        }
+        
+        header ul li span {
+            color: #decaab;
+            font-family: cursive;
+            font-weight: 500;
+        }
+        
+        .container {
+            display: inline-flex;
+            background-color: transparent;
+            border: 2px solid #e5bf87;
+            width: 70vw;
+            height: 60vh;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            border-radius: .2rem;
+            margin-left: 20px;
+        }
+        
+        .container img {
+            width: 70vw;
+            height: 60vh;
+        }
+        
+        .row {
+            display: inline-flex;
+            width: 380px;
+            height: 60vh;
+            background-color: transparent;
+            border-radius: .2rem;
+            float: right;
+            border: 2px solid #546e7a;
+            margin-top: 30px;
+            margin-right: 30px;
+        }
+        
+        .box {
+            display: inline-flex;
+            background-color: #546e7a3b;
+            width: 380px;
+            height: 60vh;
+        }
+        
+        .box input {
+            height: 24px;
+            margin-top: 35px;
+            margin-left: 25px;
+            border-radius: .5rem;
+            background: #eee;
+        }
+        
+        button {
+            margin-top: 35px;
+            margin-left: 70px;
+            padding: 4px;
+            border-radius: .5rem;
+        }
+        
+        button:hover {
+            cursor: pointer;
+            background-color: #fff;
+        }
+        
+        #edit_controls {
+            background-color: transparent;
+            width: 100px;
+            padding: 2px;
+            margin-top: -5px;
+            margin-left: 15px;
+        }
+        
+        #edit_controls td {
+            color: #eee;
+            padding-top: 30px;
+        }
+        
+        #edit_controls .range {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        
+        #btn {
+            width: 70px;
+            font-size: 13px;
+            font-weight: 500;
+            color: rgb(41, 66, 66);
+            margin-left: auto;
+            margin-right: auto;
+            border: none;
+        }
+        
+        #btn:hover {
+            cursor: pointer;
+            opacity: 0.9;
+        }
+        
+        @media screen and (max-width:600px) {
+            header nav {
+                width: 100%;
+            }
+            .container {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+            .container img {
+                width: 100%;
+                height: 60vh;
+            }
+            .row {
+                width: 100%;
+                display: block;
+                margin-bottom: 20px;
+            }
+            #edit_controls {
+                width: 100%;
+            }
+        }
